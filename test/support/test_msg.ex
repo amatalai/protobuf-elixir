@@ -72,7 +72,7 @@ defmodule TestMsg do
   end
 
   defmodule Oneof do
-    use Protobuf
+    use Protobuf, syntax: :proto3
 
     defstruct [:first, :second, :other]
 
